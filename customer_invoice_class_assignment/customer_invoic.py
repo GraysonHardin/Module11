@@ -1,8 +1,8 @@
 """"
-Program: invoice_class.py
+Program: customer_class.py
 Author: Grayson Hardin
-Last date modified: 11/1/2020
-This program takes a list of items and prints a invoice of the item and price.
+Last date modified: 11/9/2020
+Program creates an invoice within a class and then generates user info which is stored within a Customer class.
 """
 
 import locale
@@ -21,7 +21,7 @@ class Invoice:
         )
 
     def create_invoice(self):  # Initiate the invoice
-        locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8') # If crashes, check here for previous version
+        locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')  # If crashes, check here for previous version
         base_string = f'The customer ID is: {self.customer.customer_id} {self.customer.last_name} {self.customer.first_name} \n{self.customer.phone_number} {self.customer.address}'
         print(base_string)
 
