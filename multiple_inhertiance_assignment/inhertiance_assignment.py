@@ -1,8 +1,9 @@
 """
 Program: inheritance_assignment.py
 Author: Grayson Hardin
-Last date modified: 11/6/2020
+Last date modified: 11/9/2020
 
+Program takes a list of values from Employee and allows the Manager to inherit them and specific their details. For example, Manager can take in a department to specific where the Employee should go.
 """
 
 import locale
